@@ -1,0 +1,150 @@
+#topmost{
+    background-color: #1F2937;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.navbar ul li a{
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+.content1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.content1 .para{
+    display: inline-block;
+}
+.content1 .para h2{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: -10px;
+}
+.content1 .para p{
+    color: #e5e7eb;
+    font-size: 18px; 
+}
+.content1 .para button{
+    background-color: #3882f6;
+    border: none;    
+    border-radius: 5px;
+    margin-bottom: 100px; 
+    margin-top: -10px;
+    padding: 8px 30px;
+}
+.content1 .para button a{
+    color: #f9faf8;
+    font-size: 18px;
+    text-decoration: none;
+}
+h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+}
+.item{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: -10px;
+}
+.flex-container div p{
+    color: #505050;
+    font-size: 1.5vw;
+    text-align: center;
+    padding-bottom: 80px;
+}
+#quo {
+    background: #e5e7eb;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#quo .quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#quo .quote span{
+    float: right;
+    font-style: normal;
+    font-size: 25px;
+}
+.sign{
+    background: #3882f6;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.sign .call{
+    margin-bottom: -10px;
+    color: #f9faf8;
+}
+.sign .click p{
+    color: #e5e7eb;
+}
+.sign .btn button{
+    background: #3882f6;
+    color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    padding: 8px 35px;
+}
+.sign .btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+#right{
+    background-color: #1F2937;
+    height: 90px;   
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#right p{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
